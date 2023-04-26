@@ -1,0 +1,140 @@
+.root{
+  --white: #FFFFFF;
+  --grey: #443E3E;
+  --text: #646469;
+  --bg: #FBE0E0;
+}
+/* Main Page*/
+.Page{
+  background-color: #FFFFFF;
+  font-family: "Rubik",Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 21px;
+}
+/* Grid*/
+.Page{
+  height: 100%;
+}
+
+.Page-body {
+  min-height: 100%;
+  display: grid;
+  
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+/* Title*/
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  color: #443E3E;
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 57px;
+  margin: 100px 0 50px 0;
+}
+
+/* Advantages*/
+.Advantages{
+  display: grid;
+  
+
+}
+.Advantage-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+.Advantage-info{
+  color: #646469;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  
+  
+}
+.Advantage-item{
+  
+  color: #646469; 
+  list-style: none;
+  text-decoration: none;
+}
+
+.Advantage{
+  color: #443E3E;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+.Advantage-bar{
+  background-color: var(--white);
+}
+.Advantage-wrapper{
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* Advantage-icon*/
+.icon_1{
+  background-image: url('../img/icon_1.svg');
+  width: 50px;
+  height: 50px;
+
+}
+.icon_2{
+  background-image: url('../img/icon_2.svg');
+  width: 50px;
+  height: 50px;
+}
+.icon_3{
+  background-image: url('../img/icon_3.svg');
+  width: 50px;
+  height: 50px;
+}
+.icon_4{
+  background-image: url('../img/icon_4.svg');
+  width: 50px;
+  height: 50px;
+}
+.icon_5{
+  background-image: url('../img/icon_5.svg');
+  width: 50px;
+  height: 50px;
+}
+/* Navigation*/
+.Navigation-item{
+  display: grid;
+  position: relative;
+   
+}
+.nav-bar{
+  background-color: var(--white);
+}
+.nav-wrapper1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+}
+.nav-wrapper2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
