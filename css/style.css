@@ -38,8 +38,6 @@
 /* Advantages*/
 .Advantages{
   display: grid;
-  
-
 }
 .Advantage-list{
   display: grid;
@@ -47,6 +45,7 @@
   list-style: none;
   margin: 0 0 50px 0;
   padding: 0;
+  outline: 5px solid red;
 }
 .Advantage-info{
   color: #646469;
@@ -75,9 +74,7 @@
   background-color: var(--white);
 }
 .Advantage-wrapper{
-  display: grid;
-  grid-template-columns: 1fr max-content;
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -109,32 +106,23 @@
   height: 50px;
 }
 /* Navigation*/
-.Navigation-item{
+.Navigation{
   display: grid;
-  position: relative;
-   
-}
-.nav-bar{
-  background-color: var(--white);
+  max-width: 1300px;
+  ;
+
 }
 .nav-wrapper1{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  width: 1300px;
-  margin: 0 auto;
-  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 5px solid blue
+  
   
 }
-.nav-wrapper2{
+.nav-wrapper2   {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  width: 1300px;
-  margin: 0 auto;
-  padding: 0 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 5px solid gold
 }
+
